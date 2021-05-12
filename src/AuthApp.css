@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* /body{
+    background-image:url(http://bit.ly/2gPLxZ4);
+    background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ width: 100%;
+ height: 100%;
+ font-family: Arial, Helvetica;
+ letter-spacing: 0.02em;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased; 
+  color: white;
+}  */
+
+.login{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 60vw;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+.loginContainer{
+    /* border: 2px solid rgb(0, 255, 98); */
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(5px); 
+    border-radius: 5%; 
+}
+/* .loginContainer::after{
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+    filter: blur(10px);
+} */
+
+input{
+    /* border:2px solid red; */
+    height: 5vh;
+    width: 30vw;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+label{
+    /* border: 2px solid rgb(91, 33, 129); */
+    height: 10vh;
+    width: 20vw;
+    font-size: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow:black -4px 3px 6px;
+    /* font-family: 'Oswald', sans-serif; */
+    /* margin-bottom: 2%;
+    margin-top: 3%; */
+    
+}
+
+.btnContainer{
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 25vw;
+    height: 11vh;
+    font-size: 1.2rem;
+    position: relative;
+    color: white;
+    text-shadow:black -4px 3px 6px;
+
+}
+
+.errorMsg{
+    margin-top: 1%;
+font-style: oblique;
+color: red;
+}
+
